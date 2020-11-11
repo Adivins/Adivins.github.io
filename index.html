@@ -1,0 +1,23 @@
+---
+layout: default
+title: Hackers Talk
+---
+<div class="container">
+    <div class="row">
+	<div class="col">
+	    <div class="jumbotron">
+		<!-- This loops through the paginated posts -->
+		{% for post in paginator.posts %}
+		<h1>{{ post.title }}</h1>
+		<p class="author">
+		    <span class="date">{{ post.date | date_to_string }}</span>
+		</p>
+		<div class="content">
+		    {{ post.excerpt | strip_html | truncatewords:75 }}
+		    <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+		</div>
+		{% endfor %}
+	    </div>
+	</div>
+    </div>
+</div>
