@@ -1,0 +1,6 @@
+- link_css: /assets/bootstrap-4.0.0-dist/css/bootstrap.css
+- link_js: /assets/jquery/jquery-3.2.1.slim.min.js
+- link_js: /assets/popper.min.js
+- link_js: /assets/bootstrap-4.0.0-dist/js/bootstrap.js
+- link_css: /assets/font-awesome-4.7.0/css/font-awesome.css
+- link_css: /assets/css/styles.css

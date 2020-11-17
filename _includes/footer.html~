@@ -1,0 +1,7 @@
+<footer class="bg-dark text-white footer">
+    <div>
+	Made with
+	<span class="love"><i class="fa fa-heart"></i>
+	</span> with Jekyll
+    </div>
+</footer>
