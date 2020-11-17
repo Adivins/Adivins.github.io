@@ -4,3 +4,4 @@
 - link_js: /assets/bootstrap-4.0.0-dist/js/bootstrap.js
 - link_css: /assets/font-awesome-4.7.0/css/font-awesome.css
 - link_css: /assets/css/styles.css
+- link_icon: /assets/favicon.svg

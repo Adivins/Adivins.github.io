@@ -7,6 +7,11 @@
     {% for item in site.data.asset %}
     {% if item.link_css %}
     <link rel="stylesheet" href="{{ item.link_css }}">
+    {% if item.link_icon %}
+    {% endif %}
+    <link rel="icon" type="image/svg+xml" href="{{ item.link_icon%}}">
+
     {% endif %}
     {% endfor %}
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
 </head>

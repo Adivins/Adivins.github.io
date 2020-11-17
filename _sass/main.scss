@@ -2,7 +2,11 @@
 @-moz-keyframes love { to { -moz-transform: scale(1.1); } }
 @-webkit-keyframes love { to { -webkit-transform: scale(1.1); } }
 html { scroll-behavior: smooth; }
-body{ background-color: #ffffff; }
+//body{ background-color: #ffffff; }
+body {
+  background-color: $nord0;
+  color: $nord8;
+}
 .love {
   display: inline-block;
   position: relative;
