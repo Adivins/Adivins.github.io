@@ -1,0 +1,1 @@
+hai, ini adalah blog yang di hosting di github karna saya ningin mincoba static web, dan karena saat ini memiliki hobi mengetik
